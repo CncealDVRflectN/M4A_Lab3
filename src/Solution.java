@@ -1,10 +1,10 @@
 public class Solution {
-    private static final double epsilon = 0.00001;
+    private static final double epsilon = 0.000001;
 
     public static void main(String[] args) {
-        double x0 = 6.25;
+        double x0 = 4.1;
         double xcur;
-        double xnext = 5.350019946106768;
+        double xnext = 3.6897675823978724;
         int iterations = 0;
         System.out.println("Начальное приближение: " + x0);
         do {
